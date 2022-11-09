@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto:ital@0;1&family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+body {
+    background-color: whitesmoke;
+     font-family: 'Roboto', sans-serif;
+}
+body main {
+    position: relative;
+    top: 136px;
+}
+.code{
+    background-color: rgba(166, 65, 65, 0.695);
+    font-family: 'JetBrains Mono', monospace;
+    color: white;
+}
+
+table {
+    border: 2px solid rgba(0, 0, 0, 0.514);
+    border-radius: 3px;
+    margin: 45px auto;
+    background-color: rgb(143, 188, 143);
+    border-collapse: collapse;
+    box-shadow: 0px 0px 66px gray;
+}
+th, td {
+    border: 2px solid rgba(0, 0, 0, 0.514);
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+.italic{
+    font-style: italic;
+}
+
+h1, h3 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+header h1{
+    font-weight: 900;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 60px;
+    color: white;
+    }
+
+header{
+    background-color: black;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+p {
+    width: 1000px;
+    margin: 35px auto;
+    line-height: 1.5;
+}
+
+.picture {
+    text-align: center;
+    margin-top: 20px;
+    }
+
+.picture span {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+th {
+    font-weight: 600;
+}
+
+.picture img {
+    margin: 5px auto;
+    border: 1px solid black;
+    box-shadow: 0px 0px 50px gray;
+    padding: 0;
+    }
+
+.colspan{
+    margin: 5px auto;
+}
+
+.colspan span{
+    background-color: rgba(166, 65, 65, 0.695);
+    color: white;
+    padding: 10px;
+    border: 1px solid black;  
+    margin-left: 550px;  
+    }
+
+
+
+

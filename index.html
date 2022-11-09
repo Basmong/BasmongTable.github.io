@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables Cheat Sheet</title>
+    <link rel="stylesheet" href="resources/style/style.css">
+</head>
+<body>
+    <header>
+        <div>
+            <h1 class="header">HTML TABLES</h1>
+        </div>
+    </header>
+    <main>
+        <div>
+            <h3>Structure of Tables</h3>
+            <div class="picture">
+                <img src="resources/images/table_example.png" alt="Example of HTML Table Code." height="400px"><br>
+                <span>Example of HTML Table Code.</span>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tag</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="code">&lt;table&gt;&lt;/table&gt;</td>
+                        <td>Сontains all other elements of the table</td>
+                    </tr>
+                    <tr>
+                        <td class="code">&lt;thead&gt;&lt;/thead&gt;</td>
+                        <td>Specify <span class="italic">head</span> element of a table</td>
+                    </tr>
+                    <tr>
+                        <td class="code">&lt;th&gt;&lt;/th&gt;</td>
+                        <td>Defines a head cell in an HTML table</td>
+                    </tr>
+                    <tr>
+                        <td class="code">&lt;tbody&gt;&lt;tbody&gt;</td>
+                        <td>Specify <span class="italic">body</span> element of a table</td>
+                    </tr>
+                    <tr>
+                        <td class="code">&lt;tr&gt;&lt;/tr&gt;</td>
+                        <td>Defines a row in an HTML table.</td>
+                    </tr>
+                    <tr>
+                        <td class="code">&lt;td&gt;&lt;/td&gt;</td>
+                        <td>Defines a standard data cell in an HTML table</td>
+                    </tr>
+                    <tr>
+                        <td class="code">&lt;tfoot&gt;&lt;/tfoot&gt;</td>
+                        <td>The set of rows defining the footer in a table</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p>Lets look at the example. In HTML, we create <span>rows</span> and add <span>data cells</span> to them. By adding more <span>data cells</span> in each row, we create more columns.</p>
+            <div class="picture">
+                <img src="resources/images/table_example2.png" alt="Table example" width="800px"><br>
+                <span>A table with one &lt;th&gt; row and three &lt;td&gt; rows.</span>
+            </div>
+            <p>What if the table contains data that spans multiple <span>rows</span> and <span>columns</span>? Data can span rows and columns using the <span>rowspan</span> and <span>colspan</span> attributes. The attribute accepts an integer (greater than or equal to 1) to denote the number of rows or columns it spans across. Here is another example:</p>
+            <div class="colspan">
+                <span >&lt;td colspan='2'&gt;Adam's Greenworks&lt;/td&gt;</span>
+            </div><br>
+            <div class="picture">
+                <img src="resources/images/table_example3.png" alt="Table example" width="800px"><br>
+                <span>Example of <span class="italic">colspan</span> attribute.</span><br><br>
+            </div>
+        </div>
+    </main>
+    
+</body>
+</html>
